@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInyection_Redis", "DependencyInyection_Redis\DependencyInyection_Redis.csproj", "{4B1B1765-3854-4C1A-8FDE-A33586F75471}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CentralService", "CentralService\CentralService.csproj", "{4B1B1765-3854-4C1A-8FDE-A33586F75471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorBox", "SensorBox\SensorBox.csproj", "{F55FA5E8-5E30-452E-BB8E-F5FD7D07B7F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4B1B1765-3854-4C1A-8FDE-A33586F75471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B1B1765-3854-4C1A-8FDE-A33586F75471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B1B1765-3854-4C1A-8FDE-A33586F75471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55FA5E8-5E30-452E-BB8E-F5FD7D07B7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55FA5E8-5E30-452E-BB8E-F5FD7D07B7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55FA5E8-5E30-452E-BB8E-F5FD7D07B7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55FA5E8-5E30-452E-BB8E-F5FD7D07B7F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

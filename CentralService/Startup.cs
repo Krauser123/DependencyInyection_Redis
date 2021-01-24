@@ -20,7 +20,10 @@ namespace DependencyInyection_Redis
         {
             services.AddControllers();
 
+            // Register the Swagger generator, defining 1 or more Swagger documents
+            services.AddSwaggerGen();
 
+            // Register Redis
             services.AddDistributedRedisCache(option =>
             {
                 option.Configuration = "127.0.0.1:6379";
@@ -54,7 +57,7 @@ namespace DependencyInyection_Redis
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Films API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sensor API V1");
             });
 
             app.UseEndpoints(endpoints =>
